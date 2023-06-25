@@ -1,0 +1,83 @@
+.campspace_widget {
+  --csGreen: #00b189;
+  --csGreenShaded: #27634d;
+  --csYellow: #ffb100;
+  --csYellowShaded: #d99d26;
+  --csBlue: #4074bc;
+  --csBlueShaded: #234063;
+
+  --csBlack: #000000;
+  --csWhite: #ffffff;
+  --csDarkGrey: #32322e;
+  --csDarkGreyShaded: #191917;
+  --csMediumGrey: #9d9d95;
+  --csMediumGreyShaded: #6e6e68;
+  --csLightGrey: #f5f5f1;
+  --csLightGreyShaded: #ddddd9;
+
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 120px;
+  grid-row-gap: 0px;
+
+  width: 900px;
+  height: 375px;
+  background-color: white;
+
+  border-radius: 25px;
+
+  position: absolute;
+  left: 28%;
+  top: 28%;
+}
+
+.campspace_widget__image img {
+  width: auto;
+  height: 375px;
+  border-bottom-left-radius: 22px;
+  border-top-left-radius: 22px;
+}
+
+.campspace_widget__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 70%;
+  margin: 0 2rem;
+}
+
+.campspace_widget__info_logo {
+  max-width: 20%;
+  fill: #00b189;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.campspace_widget__info_title {
+  color: var(--csMediumGreyShaded);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.campspace_widget__info_book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campspace_widget__info_book a {
+  text-decoration: none;
+  width: 80%;
+}
+
+.campspace_widget__info_button {
+  background-color: var(--csBlue);
+  color: var(--csWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  border-radius: 1.2rem;
+  margin-top: 60px;
+}
