@@ -14,7 +14,21 @@ De 6 zero states zijn hieronder weergeven.
 
 De 3 zero states die ik ga uitwerken zijn omcirkeld. Dit zijn de states 1,3,6. 
 
+## Zero state viewport
 
+Om te beginnen heb ik 1 zero state gemaakt. Hier heb ik bij geschreven wie de gebruiker is en wat de gebruiker kan doen.
+
+<img width="764" alt="Scherm­afbeelding 2023-06-23 om 13 22 32" src="https://github.com/anoukbruinn/proof-of-concept-zero-state/assets/112856687/e653d797-a7b9-46f7-9e20-e00cfcc7622c">
+
+## Visuele hiërarchie
+
+Hierna heb ik de visuele hiërarchie gemaakt. Wat hier wordt weergeven is:
+
+* De meest niewswaardige info
+* Belangrijke details
+* Musts
+
+<img width="764" alt="Scherm­afbeelding 2023-06-23 om 13 24 12" src="https://github.com/anoukbruinn/proof-of-concept-zero-state/assets/112856687/ad191e8d-31cc-4cce-a64a-16dcbce148b2">
 
 ## Licentie
 
